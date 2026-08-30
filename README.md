@@ -1,5 +1,5 @@
 markdown# 🌍 Seismic Predominant Frequency Shift (SPFS) Anomaly Detection Model
-
+![Model Grafiği](grafik.png)
 Bu depo, sismik arka plan gürültüsündeki (mikro-tremor) hâkim frekans kaymalarını izleyerek deprem öncüllerini saptamayı hedefleyen **varsayımsal bir istatistiksel model ve simülasyon** içermektedir.
 
 > ⚠️ **ÖNEMLİ NOT:** Bu çalışma tamamen teorik ve varsayımsal bir model önerisidir. Gerçek saha verileriyle henüz test edilmemiştir. Kesin bir deprem tahmini (prediction) iddiası taşımaz; sismik izleme ve erken uyarı ağlarına "akıllı bir karar destek katmanı" kazandırmayı amaçlar.
