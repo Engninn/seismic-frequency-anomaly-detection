@@ -52,7 +52,7 @@ noise = np.random.normal(0, 0.15, minutes)
 freq_series = base_freq + noise
 
 # 2. Öncül Sinyal Oluşturma (48 saatten itibaren artış)
-stress_effect = np.where(t > -24, (np.exp((t + 48) / 15) * 0.2), 0)
+stress_effect = np.where(t > -48, (np.exp((t + 48) / 15) * 0.2), 0)
 freq_series += stress_effect
 
 # 3. Son 3 Saatteki "Sismik Sessizlik/Kilitlenme" (Düşüş)
